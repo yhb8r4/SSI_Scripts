@@ -1,0 +1,21 @@
+#!/bin/bash
+for i in *.txt; do sed  -i -e 's/W/20      W/g'  $i; done
+for i in *.txt; do sed  -i -e 's/Y/19      Y/g'  $i; done
+for i in *.txt; do sed  -i -e 's/F/18      F/g'  $i; done
+for i in *.txt; do sed  -i -e 's/P/17      P/g'  $i; done
+for i in *.txt; do sed  -i -e 's/L/16      L/g'  $i; done
+for i in *.txt; do sed  -i -e 's/I/15      I/g'  $i; done
+for i in *.txt; do sed  -i -e 's/V/14      V/g'  $i; done
+for i in *.txt; do sed  -i -e 's/A/13      A/g'  $i; done
+for i in *.txt; do sed  -i -e 's/G/12      G/g'  $i; done
+for i in *.txt; do sed  -i -e 's/M/11      M/g' $i;  done
+for i in *.txt; do sed  -i -e 's/C/10      C/g'  $i; done
+for i in *.txt; do sed  -i -e 's/Q/9       Q/g'   $i; done
+for i in *.txt; do sed  -i -e 's/N/8       N/g'   $i; done
+for i in *.txt; do sed  -i -e 's/T/7       T/g'   $i; done
+for i in *.txt; do sed  -i -e 's/S/6       S/g'   $i; done
+for i in *.txt; do sed  -i -e 's/E/5       E/g'   $i; done
+for i in *.txt; do sed  -i -e 's/D/4       D/g'   $i; done
+for i in *.txt; do sed  -i -e 's/K/3       K/g'   $i; done
+for i in *.txt; do sed  -i -e 's/H/2       H/g'   $i; done
+for i in *.txt; do sed  -i -e 's/R/1       R/g'   $i; done
